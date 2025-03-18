@@ -7,7 +7,7 @@ Parte 1 función agregar amigo
     const input = document.getElementById('amigo'); // Obtiene el input
     const nombre = input.value; // Extrae el valor del input
 
-    if (nombre === '') { // Validación básica
+    if (nombre === '') { // Validación básica del input ingresado en el caso vacío
         alert('Por favor, inserte un nombre');
         return; // Detiene la función si el nombre está vacío
     }
