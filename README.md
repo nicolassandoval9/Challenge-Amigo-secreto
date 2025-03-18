@@ -30,9 +30,10 @@ Parte 2 función actualizar lista
         lista.appendChild(item); // Agrega el li a la lista
     }
     }
+Parte 3 función sortear amigo
 
     function sortearAmigo() {
-    if (amigos.length === 0) { // Validación
+    if (amigos.length === 0) { // Validación si es nula la cantidad de amigos en el array
         alert('Agrega un amigo primero');
         return; // Detiene la función si no hay amigos
     }
